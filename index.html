@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es-VE">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>BROWN | Camisas de fútbol en El Tigre, Venezuela</title>
+<meta name="description" content="Camisas de fútbol exclusivas y de calidad en El Tigre, Anzoátegui. Tallas S a XL. Pide por WhatsApp.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Barlow:wght@400;600&display=swap" rel="stylesheet">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"SportingGoodsStore","name":"BROWN","slogan":"Una manera de ser","description":"Tienda de camisas de fútbol exclusivas, tallas S a XL.","address":{"@type":"PostalAddress","addressLocality":"El Tigre","addressRegion":"Anzoátegui","addressCountry":"VE"}}
+</script>
+<link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+<header><div class="wrap">
+<a class="logo" href="#inicio" aria-label="BROWN, inicio">BROWN</a>
+<nav aria-label="Principal">
+<a href="#inicio">Inicio</a><a href="#camisas">Camisas</a><a href="#contacto">Contacto</a>
+</nav><button type="button" class="cartb" id="cb" aria-label="Abrir carrito"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 4h3l2.5 11h9L20 8H7"/><circle cx="10" cy="20" r="1.5"/><circle cx="17" cy="20" r="1.5"/></svg><span id="cc">0</span></button></div></header>
+
+<main>
+<!-- INICIO -->
+<div class="page" id="inicio"><div class="wrap">
+<div class="hero">
+<h1>Brown</h1>
+<p class="tag">Una manera de ser</p>
+<p class="lead">Camisas de fútbol exclusivas y de calidad, en El Tigre. Elige tu jugador, tu talla y pídela por WhatsApp.</p>
+<div class="acts"><a class="btn" data-wa="Hola BROWN, quiero ver las camisas disponibles.">Pedir por WhatsApp</a><a class="btn ghost" href="#camisas">Ver camisas</a></div>
+</div></div>
+<section class="blk inv"><div class="wrap">
+<h2>Camisas destacadas</h2>
+<p class="sub">Una muestra de lo que tenemos. Escríbenos si buscas otro equipo o jugador.</p>
+<div class="grid" id="dest"></div>
+</div></section>
+<div class="facts"><div class="wrap" style="display:contents">
+<div><strong>Tallas S a XL</strong><span>Para cada quien, sin complicaciones.</span></div>
+<div><strong>Calidad</strong><span>Camisas que se sienten y se ven bien.</span></div>
+<div><strong>Exclusivas</strong><span>Modelos que no vas a ver en todas partes.</span></div>
+<div><strong>En El Tigre</strong><span>Atención directa, sin intermediarios.</span></div>
+</div></div>
+</div>
+
+<!-- CAMISAS -->
+<div class="page" id="camisas"><div class="wrap"><section class="blk">
+<h1 style="font-size:clamp(3rem,10vw,6rem)">Camisas de fútbol en El Tigre</h1>
+<p class="sub" style="margin-top:14px">Busca por equipo, jugador o prenda, o filtra por tipo.</p>
+<label class="srch"><span class="vh">Buscar camisa</span><input id="q" type="search" placeholder="Busca por equipo, jugador o prenda" autocomplete="off"></label>
+<div class="chips" id="chips" role="group" aria-label="Tipo de camisa">
+<button type="button" class="chip" data-c="all" aria-pressed="true"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 4h6v6H4zM14 4h6v6h-6zM4 14h6v6H4zM14 14h6v6h-6z"/></svg>Todas</button>
+<button type="button" class="chip" data-c="retro" aria-pressed="false"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="8"/><path d="M12 8v4l3 2"/></svg>Retro</button>
+<button type="button" class="chip" data-c="sel" aria-pressed="false"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 21V4M6 5h12l-2 4 2 4H6"/></svg>Selecciones</button>
+<button type="button" class="chip" data-c="club" aria-pressed="false"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3l7 3v5c0 5-3 8-7 10-4-2-7-5-7-10V6z"/></svg>Clubes actuales</button>
+<button type="button" class="chip" data-c="ropa" aria-pressed="false"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 3 3 6l2 4 3-1v12h8V9l3 1 2-4-5-3a4 4 0 0 1-8 0z"/></svg>Ropa</button>
+</div>
+<p id="cnt" class="meta" aria-live="polite" style="margin:0 0 16px"></p>
+<div class="grid" id="todas"></div>
+<div class="more"><button type="button" class="btn ghost" id="more" hidden>Ver más</button></div>
+</section></div></div>
+
+<!-- CONTACTO -->
+<div class="page" id="contacto"><div class="wrap"><section class="blk">
+<h1 style="font-size:clamp(3rem,10vw,6rem)">Contacto</h1>
+<div class="two" style="margin-top:28px">
+<div>
+<a class="btn" data-wa="Hola BROWN, quiero hacer un pedido." style="margin-bottom:28px">Escribir por WhatsApp</a>
+<dl>
+<dt>Horario de atención</dt><dd>Lunes a sábado, 9:00 a. m. a 6:00 p. m.</dd>
+<dt>Ubicación</dt><dd>El Tigre, Anzoátegui, Venezuela</dd>
+<dt>Cómo pedir</dt><dd>Elige la camisa, dinos tu talla y coordinamos el pago y la entrega.</dd>
+</dl></div>
+<form id="f">
+<label>Tu nombre<input name="n" required autocomplete="name"></label>
+<label>Camisa que te interesa<input name="c" placeholder="Equipo o jugador"></label>
+<label>Talla<select name="t"><option>S</option><option>M</option><option selected>L</option><option>XL</option></select></label>
+<label>Mensaje<textarea name="m"></textarea></label>
+<button class="btn" type="submit">Enviar por WhatsApp</button>
+</form></div></section></div></div>
+</main>
+
+<dialog id="dv" aria-labelledby="dvt"><div style="text-align:right"><button type="button" class="btn ghost" id="dvx" style="padding:6px 16px">Cerrar</button></div><div id="dvb"></div></dialog>
+<dialog id="cart" aria-labelledby="ct"><div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:10px"><h2 id="ct" style="font-size:2rem;margin:0">Tu carrito</h2><button type="button" class="btn ghost" id="cx" style="padding:6px 16px">Cerrar</button></div><div id="cbody"></div></dialog>
+<div id="toast" class="toast" role="status"></div>
+<footer><div class="wrap">BROWN. Una manera de ser. Camisas de fútbol en El Tigre, Venezuela.</div></footer>
+<a class="btn wa" data-wa="Hola BROWN, tengo una consulta.">WhatsApp</a>
+<script src="catalogo.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
